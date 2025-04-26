@@ -1,2 +1,2 @@
-1. 使用selenium会被药监局网站检测出来使用了webdriver，所以使用DrissionPage。
+1. 使用Selenium 会被药监局网站检测出来使用了webdriver，所以使用DrissionPage。
 2. 为避免频次太高被封IP，每个页面等待10秒，这样每分钟6次，如果有600个条目，约1小时40分跑完。
