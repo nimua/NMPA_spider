@@ -35,6 +35,8 @@ if __name__ == '__main__':
     url = "https://www.nmpa.gov.cn/datasearch/home-index.html#category=ylqx"
     tab = browser.latest_tab
     tab.get(url)
+    tab.ele('@class =el-input el-input--suffix').click()
+    tab.ele('@text()=境内医疗器械（注册）').click()
     tab.eles('@class=el-input__inner')[1].input("乙型肝炎病毒")
     tab.ele('@class=el-button el-button--default').click()
 
